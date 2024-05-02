@@ -5,39 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body class="bg-black text-white font-sans">
   <nav>
     <div class="font-bold font-sans flex p-4 justify-around">
-      <button>Github</button>
-      <button>Contact</button>
-      <button>About</button>
-      <button>Home</button>
+      <a href="https://github.com/D1ZEASE420" target="_blank"><button>Github</button></a>
+      <a href="#contact"><button>Contact</button></a>
+      <a href="#about"><button>About</button></a>
+      <a href="#home"><button>Home</button></a>
     </div>
   </nav>
-  <div class="relative h-screen">
+  <div class="relative h-screen" id="home">
     <div class="relative h-full bg-cover bg-center" style="background-image: url('images/new-york-5k-night-4480x2520-11835.jpg');">
       <div class="relative z-10 h-full flex items-center justify-center">
         <h1 class="text-white text-4xl font-bold">Juhan Heinlaid</h1>
       </div>
     </div>
   </div>
-  <div class="text-center text-bold">
-    <h1 class="text-2xl">Take a look at some of my code</h1>
-    <div class="flex justify-center">
-      <a href="https://github.com/D1ZEASE420" target="_blank">
-          <img class="w-56 h-56" src="images/github.jpg" alt="">
-      </a>
-  </div>
-  <div class="font-bold">
-  </div>
+
+<div id="about">
+<div class="flex justify-center mt-20 p-4 text-3xl font-bold"><p>ABOUT</p></div>
+<div class="flex justify-center text-center p-4"> <p>Welcome to my portfolio! I'm Juhan, a budding web designer/developer with a passion for creating sleek, intuitive digital experiences and designs. <br> A beginner in JavaScript, HTML, Python, and fueled by the simplicity of Tailwind CSS, I love making designs and turning them into functional websites. <br> While I'm still learning, I'm enthusiastic about diving deeper into the world of web design and tackling exciting new challenges. <br> Let's collaborate and bring your ideas to life!</p></div>
 </div>
 
-<div>
-<div class="flex justify-center mt-20 p-4 text-3xl font-bold"><p>ABOUT</p></div>
-<div class="flex justify-center p-4"> <p>Im learning Python, HTML, Tailwind and JavaScript</p></div>
+<div id="contact">
+<div class="justify-around">
+<div class="flex justify-center mt-20 p-4 text-3xl font-bold"><p>Contact me</p></div>
+<div class="flex justify-around p-4"> <p><i class="fas fa-envelope"></i> Juhan@Heinlaid.com</p> </div>
+<div class="flex justify-around p-4"> <p><i class="fas fa-phone"></i> 54541010</p> </div>
+<div class="flex justify-around p-4"> <p><i class="fas fa-map-marker-alt"></i> St. Antonio Ave 37</p> </div>
 </div>
+</div>
+
 </body>
 
 </html>
